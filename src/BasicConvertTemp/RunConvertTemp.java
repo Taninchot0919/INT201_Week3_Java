@@ -3,12 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ConvertTemp;
+package BasicConvertTemp;
 
 /**
  *
  * @author TANINCHOTPHUWALOERTT
  */
-public class ConvertTemp {
-    
+public class RunConvertTemp {
+
+    public static void main(String[] args) {
+        ConvertTemp convertTemp = new ConvertTemp();
+        convertTemp.print();
+    }
 }
